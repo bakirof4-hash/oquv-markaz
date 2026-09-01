@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "cd Hitler/frontend && npm run dev",
     "dev:backend": "cd Hitler/Backend && python manage.py runserver 0.0.0.0:8000",
-    "build-frontend": "cd Hitler/frontend && npm run build",
+    "install-frontend": "cd Hitler/frontend && npm install --include=dev",
+    "build-frontend": "cd Hitler/frontend && npm install --include=dev && npm run build",
     "build": "npm run build-frontend",
     "start": "cd Hitler/Backend && python manage.py runserver 0.0.0.0:8000"
   }
