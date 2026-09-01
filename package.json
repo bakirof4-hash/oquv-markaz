@@ -2,10 +2,10 @@
   "name": "fullstack-academy",
   "version": "1.0.0",
   "scripts": {
-    "install-frontend": "cd frontend && npm install",
-    "install-backend": "cd backend && npm install",
-    "build-frontend": "cd frontend && npm run build",
-    "build": "npm run install-frontend && npm run build-frontend && npm run install-backend",
-    "start": "cd backend && node server.js"
+    "dev": "cd Hitler/frontend && npm run dev",
+    "dev:backend": "cd Hitler/Backend && python manage.py runserver 0.0.0.0:8000",
+    "build-frontend": "cd Hitler/frontend && npm run build",
+    "build": "npm run build-frontend",
+    "start": "cd Hitler/Backend && python manage.py runserver 0.0.0.0:8000"
   }
 }

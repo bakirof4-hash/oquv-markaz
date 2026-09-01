@@ -1,0 +1,8 @@
+{
+  "appId": "com.itacademy.app",
+  "appName": "IT Academy",
+  "webDir": "dist",
+  "server": {
+    "cleartext": true
+  }
+}

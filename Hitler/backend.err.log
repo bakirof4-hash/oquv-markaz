@@ -1,0 +1,13 @@
+Watching for file changes with StatReloader
+Not Found: /api/instructors
+[06/Aug/2026 20:50:51] "GET /api/instructors HTTP/1.1" 404 3432
+Not Found: /api/instructors
+[06/Aug/2026 20:50:51] "GET /api/instructors HTTP/1.1" 404 3432
+Not Found: /api/courses
+[06/Aug/2026 20:50:53] "GET /api/courses HTTP/1.1" 404 3420
+Not Found: /api/courses
+[06/Aug/2026 20:50:53] "GET /api/courses HTTP/1.1" 404 3420
+Not Found: /api/courses
+[06/Aug/2026 20:51:09] "GET /api/courses HTTP/1.1" 404 3420
+Not Found: /api/courses
+[06/Aug/2026 20:51:09] "GET /api/courses HTTP/1.1" 404 3420

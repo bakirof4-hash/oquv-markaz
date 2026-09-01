@@ -1,0 +1,33 @@
+.navbar {
+gap: 20px;
+    display: flex;
+    background-color: brown;
+    padding: 20px;
+    align-items: center;
+   justify-content: space-between;
+}
+
+
+.navbar.logo-box .logo  {
+    font-size: 20px;
+    color: blue;
+}
+
+.navbar.link-box {
+width: 100px;
+padding: 20px;
+
+}
+
+
+.navbar .bnt-box .bnt {
+border: 2px solid;
+width: 20px;
+padding: 20px;
+color: whitesmoke;
+}
+
+
+
+
+
