@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "buildCommand": "cd Hitler/frontend && npm install --include=dev && npm run build",
+  "outputDirectory": "Hitler/frontend/dist",
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
